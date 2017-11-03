@@ -2,7 +2,7 @@
 git clone https://github.com/mattfinnell/vim-configuration.git ~/.vim
 
 # [ TMUX Configuration ]
-# apt-get install -y tmux
+apt-get install -y tmux
 
 ln --symbolic $PWD/tmux.conf ~/.tmux.conf
 
