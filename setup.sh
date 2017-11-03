@@ -14,6 +14,4 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ln --symbolic $PWD/zshrc ~/.zshrc
 
 chsh -s /bin/zsh
-echo "\nUse ZSH instead of Bash\n/usr/bin/zsh"
-
-/usr/bin/zsh
+echo "\nUse ZSH instead of Bash\n/usr/bin/zsh" >> ~/.bashrc
