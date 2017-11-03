@@ -25,7 +25,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # [ OSX ] OS Dependent stuff
-if [ "$(uname)" == "Darwin" ]; then
+if [ "$(uname)" '==' "Darwin" ]; then
     alias ls="/usr/local/bin/gls -lh -G --color --group-directories-first"
     alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 fi
